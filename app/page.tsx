@@ -1,4 +1,5 @@
 import ApplicationForm from '@/components/Apply/ApplicationForm';
+import Link from "next/link"
 
 export default function ApplyPage() {
   return (
@@ -12,6 +13,9 @@ export default function ApplyPage() {
         <div className="bg-white rounded-xl shadow-lg p-6">
           <ApplicationForm />
         </div>
+        <h1 className="mt-4">
+          <Link href="/admin/articles">Управление статьями</Link>
+        </h1>
       </div>
     </div>
   );
