@@ -33,6 +33,9 @@ export default async function ArticlesPage() {
               <h2 className="text-3xl font-bold tracking-tight">Статьи</h2>
               <p className="text-muted-foreground">Управление статьями блога</p>
             </div>
+            <div>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM7Qkb4c94Y3psVF3bdIDB3bTamZ4Vdqfymw&s" alt="" />
+            </div>
           </div>
         </div>
       </main>

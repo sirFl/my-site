@@ -14,7 +14,7 @@ export default function ApplyPage() {
           <ApplicationForm />
         </div>
         <h1 className="mt-4">
-          <Link href="/admin/articles">Управление статьями</Link>
+          <Link href="/admin/articles">Роблокс</Link>
         </h1>
       </div>
     </div>
