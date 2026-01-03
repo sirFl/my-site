@@ -9,6 +9,7 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+.next/
 
 # testing
 /coverage
@@ -30,11 +31,20 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
 # env files (can opt-in for committing if needed)
 .env*
 
 # vercel
 .vercel
+
+# OS
+Thumbs.db
+EOF
 
 # typescript
 *.tsbuildinfo
