@@ -1,5 +1,7 @@
 import { createClient } from "@/lib/server"
+import App from "next/app"
 import Link from "next/link"
+import Menu1 from "@/app/site/page"
 
 export default async function ArticlesPage() {
   const supabase = await createClient()
@@ -37,6 +39,7 @@ export default async function ArticlesPage() {
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM7Qkb4c94Y3psVF3bdIDB3bTamZ4Vdqfymw&s" alt="" />
             </div>
           </div>
+        <Menu1 />
         </div>
       </main>
     </div>
